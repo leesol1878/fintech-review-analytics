@@ -28,9 +28,9 @@ ENV/
 *.swo
 *~
 
-# Jupyter notebooks
+# Jupyter notebooks - ALLOW COMMITTING (assignment requires it)
 .ipynb_checkpoints/
-*.ipynb
+# *.ipynb   <-- COMMENTED OUT to allow committing notebooks
 
 # OS garbage files
 .DS_Store
