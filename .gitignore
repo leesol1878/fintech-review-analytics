@@ -1,0 +1,55 @@
+# Data files (NEVER commit raw data to GitHub)
+data/
+*.csv
+*.xlsx
+*.json
+*.db
+*.sqlite
+*.parquet
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env
+.venv
+ENV/
+
+# IDE settings (personal to you)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS garbage files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and keys (NEVER commit these!)
+*.key
+*.pem
+*.p12
+secrets.py
+config.py
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
